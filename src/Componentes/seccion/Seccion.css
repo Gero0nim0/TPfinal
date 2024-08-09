@@ -1,0 +1,12 @@
+.seccion {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la sección */
+    align-items: center; /* Centra verticalmente la sección */
+    background-color: white;
+    border: 2px solid black;
+    padding: 1rem;
+    color: black;
+    margin: 2rem auto; /* Centra la sección en la página */
+    width: 1500px; /* Puedes ajustar esto según necesites */
+  }
+  

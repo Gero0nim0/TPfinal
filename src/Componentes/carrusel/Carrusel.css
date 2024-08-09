@@ -1,0 +1,32 @@
+/* .cuadradoRojo{
+    width: 20rem;
+    height: 10rem;
+    background-color: red;
+    margin: 2rem auto;
+}
+.cuadradoVerde{
+    width: 20rem;
+    height: 10rem;
+    background-color: green;
+    margin: 2rem auto;
+}
+.cuadradoAzul{
+    width: 20rem;
+    height: 10rem;
+    background-color: blue;
+    margin: 2rem auto;
+} */
+ .arreglo{
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+ }
+
+ .carousel-item img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
