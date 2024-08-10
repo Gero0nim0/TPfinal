@@ -1,6 +1,7 @@
+
 function CandyBar(){
     return(
-        <h1>Joj</h1>
+        <h1>jaj</h1>
     )
 }
 
