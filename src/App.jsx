@@ -10,6 +10,8 @@ import Biografia from './links/Biografia';
 import TortasTematicas from './links/TortasTematicas';
 import Tartas from './links/Tartas';
 import CandyBar from './links/CandyBar';
+import Pedidos from './Componentes/pedidos/Pedidos'; // Importa el componente Pedidos
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
           <Route path="TortasTematicas" element={<TortasTematicas />} />
           <Route path="Tartas" element={<Tartas />} />
           <Route path="CandyBar" element={<CandyBar />} />
+          <Route path="Pedidos" element={<Pedidos />} /> {/* Nueva ruta para Pedidos */}
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
       </BrowserRouter>

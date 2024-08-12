@@ -1,6 +1,11 @@
+import Icono from '../assets/imagen/Icono.png';
+
 function Biografia(){
     return(
-        <h1>Jaj</h1>
+        <div>
+            <img src={Icono} className='imagenIcono'/>
+
+        </div>
     )
 }
 
