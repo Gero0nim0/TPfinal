@@ -1,5 +1,22 @@
-.footer{
-    background-color: black;
-    color: white;
-    padding: 1rem;
+.footer {
+    background-color: wheat;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    max-height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples filas */
+}
+
+.footer-item {
+    flex: 0 1 45%; /* Cada elemento ocupará un 45% del ancho, dejando espacio entre columnas */
+    margin: 10px 0; /* Margen vertical para separar las filas */
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.footer-item i {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
 }

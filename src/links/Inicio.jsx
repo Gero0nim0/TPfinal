@@ -1,3 +1,4 @@
+import './Inicio.css';
 import Carder from '../Componentes/card/Card';
 import ControlledCarousel from '../Componentes/carrusel/Carrusel';
 import Brownies from '../assets/imagen/Screenshot_1.png';
@@ -11,75 +12,42 @@ import Paletas from '../assets/imagen/paletas.jpg';
 import TartaFrutosRojos from '../assets/imagen/tartaFrutosRojos.jpg';
 import TartaFrutal from '../assets/imagen/TartaFrutal.jpg';
 import TartaFrutilla from '../assets/imagen/TartaFrutilla.jpg';
+import CookiesRosas from '../assets/imagen/CookiesRosas.jpg';
+import TortaAjedrez from '../assets/imagen/tortaAjedrez.jpg';
+import Alfajores from '../assets/imagen/Alfajores.png';
+import ComboDulce from '../assets/imagen/ComboDulce.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Inicio(){
 return(
-        <div>
-            <ControlledCarousel/>
+<div>
+    <h2 className='subtitulo'>Disfrutá de la Pasteleria 100% Casera</h2>
 
-      <h2 className='subtitulo'> Disfrutá de la Pasteleria 100% Casera </h2>
-
-        <Carder
-                imageSrc={Brownies}
-                text="Brownies" 
-
-    />
-
-
-
-<Carder
-            imageSrc={Cupcakes2} 
-            text="Cupcakes" 
-    />
-
-<Carder
-            imageSrc={Oreos} 
-            text="Oreos Bañadas en Chocolate Blanco" 
-    />
-
-        <Carder
-            imageSrc={Paletas} 
-            text="Paletas" 
-    />
-            
-            <Carder
-            imageSrc={Tiramisu} 
-            text="Tiramisu" 
-    />
-
-<Carder
-            imageSrc={Chocotorta} 
-            text="Chocotorta" 
-    />
-
-<Carder
-            imageSrc={LemonPie} 
-            text="Lemon Pie" 
-    />
-
-<Carder
-            imageSrc={BrownieMerengue} 
-            text="Brownie con Merengue y Dulce de Leche" 
-    />
-
-
-
-<Carder
-            imageSrc={TartaFrutosRojos} 
-            text="Tarta de Frutos Rojos" 
-    />
-    
-    <Carder
-            imageSrc={TartaFrutal} 
-            text="Tarta de Frutas" 
-    />
-    
-    <Carder
-            imageSrc={TartaFrutilla} 
-            text="Tarta de Frutillas" 
-    />
+    <div className='main-container'>
+        <div className="carousel-container">
+            <ControlledCarousel />
         </div>
+
+        <div className="cards-container">
+            <Carder imageSrc={ComboDulce} title="Combo de Mesa Dulce" text='$$$' />
+            <Carder imageSrc={Brownies} title="Brownies" text='$$$' />
+            <Carder imageSrc={Cupcakes2} title="Cupcakes" text='$$$' />
+            <Carder imageSrc={Oreos} title="Oreos Bañadas en Chocolate Blanco" text='$$$' />
+            <Carder imageSrc={Alfajores} title="Alfajores de Maizena" text='$$$' />
+            <Carder imageSrc={Paletas} title="Paletas" text='$$$' />
+            <Carder imageSrc={CookiesRosas} title="Cookies Personalizadas" text='$$$' />
+            <Carder imageSrc={Tiramisu} title="Tiramisu" text='$$$' />
+            <Carder imageSrc={Chocotorta} title="Chocotorta" text='$$$' />
+            <Carder imageSrc={LemonPie} title="Lemon Pie" text='$$$' />
+            <Carder imageSrc={BrownieMerengue} title="Brownie con Merengue y Dulce de Leche" text='$$$' />
+            <Carder imageSrc={TartaFrutosRojos} title="Tarta de Frutos Rojos" text='$$$' />
+            <Carder imageSrc={TartaFrutal} title="Tarta de Frutas" text='$$$' />
+            <Carder imageSrc={TartaFrutilla} title="Tarta de Frutillas" text='$$$' />
+            <Carder imageSrc={TortaAjedrez} title="Tortas Temáticas" text='$$$' />
+        </div>
+    </div>
+</div>
+
     )
 }
 

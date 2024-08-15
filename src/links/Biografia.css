@@ -1,0 +1,11 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta esto según tus necesidades */
+}
+
+.imagenIcono {
+    max-width: 100%; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}

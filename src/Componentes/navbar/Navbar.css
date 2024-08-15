@@ -3,5 +3,9 @@
 }
 .prueba{
     color: black;
-    background-color: black;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+.titulo{
+    font-size: 1.5rem;
 }
