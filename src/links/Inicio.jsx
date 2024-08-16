@@ -21,12 +21,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Inicio(){
 return(
 <div>
-    <h2 className='subtitulo'>Disfrutá de la Pasteleria 100% Casera</h2>
+    
 
     <div className='main-container'>
         <div className="carousel-container">
             <ControlledCarousel />
         </div>
+
+        <h2 className='subtitulo'>Disfrutá de la Pasteleria 100% Casera</h2>
 
         <div className="cards-container">
             <Carder imageSrc={ComboDulce} title="Combo de Mesa Dulce" text='$$$' />

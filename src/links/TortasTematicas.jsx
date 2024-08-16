@@ -22,11 +22,11 @@ function TortasTematicas(){
             <Carder imageSrc={TortaAjedrez} title="Tortas Temáticas" text='$$$'/>
             </div>
 
-        <h2 className='mensaje'>Las Tortas temáticas tienen un precio dependiendo del tamaño del bizcochuelo, el relleno y, sobre todo, la decoración.
-            Pueden pedir un diseño ya publicado en alguna de mis pagina o también sacada de internet o de otra pagina de repostería, no se preocupen
+        <h2 className='mensaje'>Las Tortas temáticas tienen un precio, dependiendo del tamaño del bizcochuelo, el relleno y, sobre todo, la decoración.
+            Pueden pedir un diseño ya publicado en alguna de mis páginas o también sacada de internet o de otra pagina de repostería. No se preocupen,
             la torta tendrá el nombre del cumpleñaro.
         </h2>
-        <h2 className='mensaje'>Deben tener en cuenta que lleva horas de trabajo y se debe obtener una ganancia por el tiempo ,la calilad y el gasto de materiales.</h2>
+        <h2 className='mensaje'>Deben tener en cuenta que lleva horas de trabajo y se debe obtener una ganancia por el tiempo, la calilad y el gasto de materiales.</h2>
         <h2 className='mensajeDos'> Algunos Ejemplos</h2>
 
         <div className='main-container'>

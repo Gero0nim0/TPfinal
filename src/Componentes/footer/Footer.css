@@ -3,20 +3,36 @@
     color: black;
     padding: 20px;
     width: 100%;
-    position: relative;
-    max-height: 9rem;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples filas */
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye el espacio entre elementos */
 }
 
 .footer-item {
-    flex: 0 1 45%; /* Cada elemento ocupará un 45% del ancho, dejando espacio entre columnas */
-    margin: 10px 0; /* Margen vertical para separar las filas */
+    flex: 0 1 45%; /* Cada elemento ocupa un 45% del ancho */
+    margin: 10px 0;
     display: flex;
-    align-items: center; /* Centra el contenido verticalmente */
+    align-items: center;
+    justify-content: flex-start; /* Alinea los elementos al inicio */
+    text-align: left; /* Alinea el contenido a la izquierda */
 }
 
-.footer-item i {
-    margin-right: 10px; /* Espacio entre el ícono y el texto */
+/* Ajustes específicos para pantallas de 768px o menos */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer-item {
+        flex: 0 1 100% !important;/* Cada ítem ocupa todo el ancho */
+        margin: 10px 0;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        text-align: center !important; /* Centra el texto dentro del ítem */
+    }
+
+    .footer-item a, .footer-item span {
+        margin-left: 0; /* Elimina el margen para centrar mejor */
+    }
 }

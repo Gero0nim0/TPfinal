@@ -12,3 +12,10 @@
     margin: 0 auto; /* Centra la imagen horizontalmente */
   }
   
+  @media (max-width: 768px){
+   .arreglo{
+      flex-direction: column; /* Cambia a disposición vertical */
+      align-items: center;
+      padding: 10px;
+   }
+  }
