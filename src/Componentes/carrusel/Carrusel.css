@@ -9,12 +9,12 @@
 
  .carousel-item img {
     display: block;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin: 0 auto;
   }
   
   @media (max-width: 768px){
    .arreglo{
-      flex-direction: column; /* Cambia a disposición vertical */
+      flex-direction: column;
       align-items: center;
       padding: 10px;
    }

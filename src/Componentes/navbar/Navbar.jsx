@@ -18,8 +18,6 @@ function NavbarTest() {
               <NavDropdown.Item as={Link} to='TortasTematicas' className="buscador">Tortas Temáticas</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='Tartas' className="buscador">Tartas</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='CandyBar' className="buscador">Candy bar</NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
-              {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

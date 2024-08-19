@@ -1,29 +1,29 @@
 /* Contenedor principal */
 .main-container {
     display: flex;
-    justify-content: center; /* Centra las tarjetas horizontalmente */
-    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias líneas */
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 20px;
-    gap: 20px; /* Espacio entre las tarjetas */
+    gap: 20px;
 }
 
 /* Estilos de la tarjeta */
 .cardNB {
     width: 17rem;
     border: none;
-    border-radius: 0; /* Sin bordes redondeados */
-    overflow: hidden; /* Oculta cualquier desbordamiento de contenido */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    transition: transform 0.2s ease-in-out; /* Animación suave al hacer hover */
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Efecto de elevación en hover */
+    transform: translateY(-5px);
 }
 
 .cardNB img {
     height: 300px;
-    object-fit: cover; /* Ajuste de imagen para cubrir el contenedor */
+    object-fit: cover;
     width: 100%;
 }
 

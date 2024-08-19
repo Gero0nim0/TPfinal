@@ -24,7 +24,6 @@ function App() {
 function AppContent() {
   const location = useLocation();
 
-  // Rutas donde no se debe mostrar el footer
   const noFooterPaths = ['/Pedidos'];
 
   return (
@@ -36,10 +35,9 @@ function AppContent() {
         <Route path="TortasTematicas" element={<TortasTematicas />} />
         <Route path="Tartas" element={<Tartas />} />
         <Route path="CandyBar" element={<CandyBar />} />
-        <Route path="Pedidos" element={<Pedidos />} /> {/* Nueva ruta para Pedidos */}
+        <Route path="Pedidos" element={<Pedidos />} />
         <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
-      {/* Renderizar el Footer condicionalmente */}
       {!noFooterPaths.includes(location.pathname) && <Footer />}
     </div>
   );

@@ -34,7 +34,7 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    width: 90%; /* Or a percentage that fits your design */
-    max-width: 1200px; /* Optional: to prevent the container from getting too wide */
+    width: 90%;
+    max-width: 1200px;
   }
 }

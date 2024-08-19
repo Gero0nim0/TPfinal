@@ -13,7 +13,7 @@ function Pedido(){
           rel="noopener noreferrer"
           className="instagram-link"
         >
-          <FaInstagram size={30} color="black" /> {/* Icono de Instagram */}
+          <FaInstagram size={30} color="black" />
         </a>
       </div>
       <div className="redes">

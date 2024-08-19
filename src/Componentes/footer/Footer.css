@@ -5,34 +5,34 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Distribuye el espacio entre elementos */
+    justify-content: space-between;
 }
 
 .footer-item {
-    flex: 0 1 45%; /* Cada elemento ocupa un 45% del ancho */
+    flex: 0 1 45%;
     margin: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Alinea los elementos al inicio */
-    text-align: left; /* Alinea el contenido a la izquierda */
+    justify-content: flex-start;
+    text-align: left;
 }
 
 /* Ajustes específicos para pantallas de 768px o menos */
 @media (max-width: 768px) {
     .footer {
-        flex-direction: column; /* Cambia a disposición vertical */
+        flex-direction: column;
         align-items: center;
         padding: 10px;
     }
 
     .footer-item {
-        flex: 0 1 100% !important;/* Cada ítem ocupa todo el ancho */
+        flex: 0 1 100% !important;
         margin: 10px 0;
-        justify-content: center; /* Centra el contenido horizontalmente */
-        text-align: center !important; /* Centra el texto dentro del ítem */
+        justify-content: center;
+        text-align: center !important;
     }
 
     .footer-item a, .footer-item span {
-        margin-left: 0; /* Elimina el margen para centrar mejor */
+        margin-left: 0;
     }
 }

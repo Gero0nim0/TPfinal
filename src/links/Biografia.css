@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta esto según tus necesidades */
+    height: 100vh;
 }
 
 .imagenIcono {
-    max-width: 100%; /* Ajusta el tamaño según sea necesario */
+    max-width: 100%;
     height: auto;
 }

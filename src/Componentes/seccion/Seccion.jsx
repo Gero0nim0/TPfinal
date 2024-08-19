@@ -7,10 +7,7 @@ function Seccion(){
             <div>
                 <ControlledCarousel/>
             </div>
-            
-
         </section>
-        
     )
 }
 
